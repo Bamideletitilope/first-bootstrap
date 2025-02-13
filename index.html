@@ -1,0 +1,365 @@
+<Doctype html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <title>My Bootstrap</title>
+   <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #0ca2f8;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+      }
+      span {
+        color: #33ccff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      p {
+        color: rgb(155, 154, 154);
+      }
+      .container {
+        background-color: whitesmoke;
+        border-radius: 10px;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      .navbar {
+        padding-top: 20px;
+      }
+      .nav-link {
+            color: black;
+      }
+      .ready {
+        margin-top: 40px;
+        padding-top: 40px;
+      }
+      .input-group {
+        width: 80%;
+        margin: 0 auto
+      }
+      .project {
+          margin: 10px 0px 10px 150px;
+          height: 150px;
+          width: 80%;
+          justify-content: center;
+      }
+      .btn {
+        margin-top: 40px;
+      }
+      .input-group {
+          margin-bottom: 150px;
+      }
+      .blueline {
+          height: 3px;
+          width: 40px;
+          background-color: #33ccff;
+      }
+      .second { 
+          justify-content: center;
+          margin-top: 50px;
+          background-color: aquamarine;
+      }
+      .blank {
+        padding-top: 50px;
+        margin-left: 30px;
+      }
+      .cardbox {
+        height: 200px;
+        width: 80%;
+        background-color: white;
+        margin: 0 auto;
+        padding: 30px;
+        justify-content: center;
+      }
+      .cardimg {
+          border-radius: 50%;
+          width: 100px;
+          justify-content: right;
+      }
+      .unlimited {
+        height: 200px;
+        width: 80%;
+        background-color: #0ca2f8;
+        margin: 30px 0px 30px 150px;
+        padding: 30px;
+        justify-content: center;
+      }
+      .dot {
+        margin: 0 auto;
+        margin-top: 30px;
+        
+      }
+      .carrd {
+        width: 200px;
+        margin: 15px 10px;
+        padding: 25px 15px 10px 15px;
+        background-color: white;
+        border-radius: 20px;
+      }
+      .card {
+        float: left;
+        height: 80px;
+        width: 300px;
+      }
+      .dott {
+        padding: 70px 15px 30px 20px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      .cardd {
+        width: 150px;
+        margin: 15px 10px 0px 10px;
+
+      }
+      .unlimited {
+        border-radius: 12px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding-left: 45px;
+      }
+      .white {
+        color: white;
+      }
+      .whiite {
+       color: #0ca2f8;
+      }
+      .blue {
+        background-color: white;
+        width: 100px;
+      }
+      .plan {
+        padding-top: 30px;
+      }
+      .feature {
+        margin: 20px 0px 20px 100px;
+      }
+      .three {
+        justify-content: center;
+      }
+      .second {
+        height: 200px;
+        width: 80%;
+        background-color: white;
+        margin: 0 auto;
+        padding: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        justify-content: center;
+      }
+      .black { 
+        background-color: rgba(41, 40, 40, 0.61);
+        justify-content: center;
+        padding: 25px;
+        margin-top: 30px;
+      }
+      .black h6 {
+        color: white;
+      }
+      .black small {
+        color: powderblue;
+      }
+      .footer {
+        height: 20px;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        background-color: black;
+        justify-content: center;
+      }
+      .footer small {
+        text-align: center;
+        color: gray;
+        padding-left: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid" id="container"> <!--bootstrap uses class so i am using id-->
+      <div class="container"> <!--putting a new container in the previous container -->
+          <div class="row"> <!--defining my rows which will hold my columns--> 
+            <div class="col-sm-12"> <!--defining how many colums--> 
+              <!--navigation panel codes starts here-->
+                <nav class="navbar navbar-expand-sm ">
+                  <div class="container-fluid">
+                  <!-- Links -->
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="navbar-brand" href="index.html"><img src="C:\Users\LENOV\Desktop\frontend softlyft\images\logo3.jpg" width="40px"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Library</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Subjects</a>
+                      </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="footer">Paths</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="calculator.html">Calculator</a>
+                        </li>
+                      </ul>
+                      <!--right part of the navigation bar-->
+                      <ul class="nav nav-pills nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign In</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Join Pro</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+          </div> <!--navgation container ends here-->
+          <!-- <section class="ready"> -->
+          <div class="row ready">  
+            <div class="col-sm-12 text-center">
+              <h1>Ready to build <br/>something awesome?</h1>
+              <p>we create practical screencasts for awesome developers</p><br/>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="|search our library, e.g learn vue">
+              </div>                    
+            </div>
+          </div>
+          <!-- </section> -->
+          <br/> 
+        <div class="blueline"></div>
+        <section class="row project">
+            <div class="col-sm-9">
+               <h3><strong>Projects to get you started</strong> </h3>
+               <small>Rather than just teach theory, we focus on real code to insipre your next project.<br/>
+                Learning shouldn't be boring, so let's have some fun.
+              </small> 
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-primary">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+               </svg>      Browse Library
+              </button>
+            </div>
+        </section>
+        <div class="row cardbox">
+          <div class="col-sm-3">
+              <img src="C:\Users\LENOV\Desktop\frontend softlyft\images\Tee.jpg" class=" cardimg">
+          </div>
+          <div class="col-sm-9">
+              <p>My career started as a designer. out of neccessity, i need to learn how to handle an entire stack. 
+                Coursecode took me from basically no knowledge on development to being able to handle every aspect of it</p>
+              <p class="card-text"><small class="text-body-secondary">Josh Stobbs, Ontario, Canada  anvildesign.ca</small></p>
+          </div>
+        </div>
+        <div class="row dot">
+          <div class="col-sm-3 dott">
+              <h5><strong>Latest Content</strong></h5>
+              <small> Fresh from library</small> <br/>
+              <a href="#" target="_blank"> Browse everything </a>
+          </div>
+          <div class="col-sm-3 carrd">
+            <h6><span>PRO ONLY</span></h6>
+                <h6>Superfast Data Nesting</h6> <br/>
+              <p><small>Nesting huge amount of data like content? here's a technique combining API data and frontend logic to make it a breeze</small></p> 
+            <button type="button" class="btn cardd btn-primary fa-solid fa-circle-play">watch Now</button>
+          </div>
+          <div class="col-sm-3 carrd">
+            <h6><span>PRO ONLY</span></h6>
+                <h6>Superfast Data Nesting</h6> <br/>
+              <p><small>Nesting huge amount of data like content? here's a technique combining API data and frontend logic to make it a breeze</small></p> 
+            <button type="button" class="btn cardd btn-primary fa-solid fa-circle-play">watch Now</button>
+          </div>
+          <div class="col-sm-3 carrd">
+            <h6><span>PRO ONLY</span></h6>
+                <h6>Superfast Data Nesting</h6> <br/>
+              <p><small>Nesting huge amount of data like content? here's a technique combining API data and frontend logic to make it a breeze</small></p> 
+            <button type="button" class="btn cardd btn-primary fa-solid fa-circle-play">watch Now</button>
+          </div>
+          <div style="clear: both;"></div>
+        <div class="row unlimited">
+         <div class="col-sm-7 white">
+           <h3>Unlimited access <br/> to everything with <br/>pro membership.</h3> <br/>
+           <small>For a price of few coffees month, you get access <br/>to our entire library of conent and more</small>  
+          </div>
+          <div class="col-sm-4 plan">
+           <button type="button" class="btn blue"> <small class="whiite">See plans</small></button>
+          </div>
+        </div>
+        <div class="feature"><h4> Featured Content</h4></div> <br/>
+        <div class="row three">
+          <div class="col-sm-3 carrd">
+            <h6><span>PRO ONLY</span></h6>
+                <h6>Superfast Data Nesting</h6> <br/>
+              <p><small>Nesting huge amount of data like content? here's a technique combining API data and frontend logic to make it a breeze</small></p> 
+            <button type="button" class="btn cardd btn-primary fa-solid fa-circle-play">watch Now</button>
+          </div>
+          <div class="col-sm-3 carrd">
+            <h6><span>PRO ONLY</span></h6>
+                <h6>Superfast Data Nesting</h6> <br/>
+              <p><small>Nesting huge amount of data like content? here's a technique combining API data and frontend logic to make it a breeze</small></p> 
+            <button type="button" class="btn cardd btn-primary fa-solid fa-circle-play">watch Now</button>
+          </div>
+          <div class="col-sm-3 carrd"> 
+            <h6><span>PRO ONLY</span></h6>
+                <h6>Superfast Data Nesting</h6> <br/>
+              <p><small>Nesting huge amount of data like content? here's a technique combining API data and frontend logic to make it a breeze</small></p> 
+            <button type="button" class="btn cardd btn-primary fa-solid fa-circle-play">watch Now</button>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+        <div class="row second">
+          <div class="col-sm-3">
+              <img src="C:\Users\LENOV\Desktop\frontend softlyft\images\Tee.jpg" class=" cardimg">
+          </div>
+          <div class="col-sm-9">
+              <p>My career started as a designer. out of neccessity, i need to learn how to handle an entire stack. 
+                Coursecode took me from basically no knowledge on development to being able to handle every aspect of it</p>
+              <p class="card-text"><small class="text-body-secondary">Josh Stobbs, Ontario, Canada  anvildesign.ca</small></p>
+          </div>
+        </div>
+        <div class="row black"> 
+          <div class="col-sm-2">
+            <h6>Library</h6><br/>
+            <small>Latest & Featured <br/>
+                   Library Index <br/>
+                   Snipet <br/>
+                   Browse Subjects <br/>
+            </small>
+          </div>
+          <div class="col-sm-2">
+            <h6>Account</h6> <br/>
+            <small>Sign In <br/>
+                   Create Account <br/>
+                   Go Pro <br/>
+                   Testimonial <br/>
+            </small>
+          </div>
+          <div class="col-sm-2">
+            <h6>Social</h6> <br/>
+            <small>Rss feeds <br/>
+                   Twitter <br/>
+                   Facebook <br/>
+                   Youtube <br/>
+            </small>
+          </div>
+          <div class="col-sm-2">
+            <h6>Company</h6> <br/>
+            <small> Get In touch <br/>
+                    Terms <br/>
+                    Privacy Policy
+            </small>
+          </div>
+          <div class="col-sm-2">
+            <h6>Codecourse Family</h6> <br/>
+            <small>Snippets</small>
+          </div>
+        </div>
+        <footer class="footer">
+          <small>2019 Codecourse ltd. All Right Reserved. Born in London, Uk. Company number 09041072</small>
+        </footer>
+    </div>
+  </body>
+<htm/>
+<i class="fa-solid fa-circle-play"></i>
